@@ -88,7 +88,7 @@
 			this.groupBox3.Controls.Add(this.rbR2CR);
 			this.groupBox3.Location = new System.Drawing.Point(12, 120);
 			this.groupBox3.Name = "groupBox3";
-			this.groupBox3.Size = new System.Drawing.Size(254, 41);
+			this.groupBox3.Size = new System.Drawing.Size(274, 41);
 			this.groupBox3.TabIndex = 3;
 			this.groupBox3.TabStop = false;
 			this.groupBox3.Text = "Тип конвертации";
@@ -96,11 +96,11 @@
 			// rbR2E
 			// 
 			this.rbR2E.AutoSize = true;
-			this.rbR2E.Location = new System.Drawing.Point(125, 19);
+			this.rbR2E.Location = new System.Drawing.Point(137, 19);
 			this.rbR2E.Name = "rbR2E";
-			this.rbR2E.Size = new System.Drawing.Size(127, 17);
+			this.rbR2E.Size = new System.Drawing.Size(133, 17);
 			this.rbR2E.TabIndex = 1;
-			this.rbR2E.Text = "Русский - PYCCKNN";
+			this.rbR2E.Text = "Русский -> PYCCKNN";
 			this.rbR2E.UseVisualStyleBackColor = true;
 			this.rbR2E.CheckedChanged += new System.EventHandler(this.rbR2E_CheckedChanged);
 			// 
@@ -110,10 +110,10 @@
 			this.rbR2CR.Checked = true;
 			this.rbR2CR.Location = new System.Drawing.Point(6, 19);
 			this.rbR2CR.Name = "rbR2CR";
-			this.rbR2CR.Size = new System.Drawing.Size(113, 17);
+			this.rbR2CR.Size = new System.Drawing.Size(125, 17);
 			this.rbR2CR.TabIndex = 0;
 			this.rbR2CR.TabStop = true;
-			this.rbR2CR.Text = "Русский-Пуццкнн";
+			this.rbR2CR.Text = "Русский -> Пуццкнн";
 			this.rbR2CR.UseVisualStyleBackColor = true;
 			this.rbR2CR.CheckedChanged += new System.EventHandler(this.rbR2CR_CheckedChanged);
 			// 

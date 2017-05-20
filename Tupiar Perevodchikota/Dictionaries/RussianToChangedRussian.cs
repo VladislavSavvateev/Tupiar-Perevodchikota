@@ -17,6 +17,7 @@ namespace Tupiar_Perevodchikota.Dictionaries {
 			pairs.Add("д", "дельта");
 			pairs.Add("ж", "большеилименьше");
 			pairs.Add("и", "н");
+			pairs.Add("й", "н");
 			pairs.Add("л", "слешобрслеш");
 			pairs.Add("н", "х");
 			pairs.Add("п", "пи");
