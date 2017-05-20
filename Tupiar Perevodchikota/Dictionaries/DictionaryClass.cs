@@ -12,6 +12,11 @@ namespace Tupiar_Perevodchikota {
 	abstract class DictionaryClass {
 
 		/// <summary>
+		/// Возвращает значение, показывающее зависимость словаря от регистра.
+		/// </summary>
+		/// <returns></returns>
+		abstract public bool IsCaseSensetive();
+		/// <summary>
 		/// Возвращает словарь.
 		/// </summary>
 		/// <returns>Словарь.</returns>

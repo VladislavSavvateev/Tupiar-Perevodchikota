@@ -9,6 +9,10 @@ namespace Tupiar_Perevodchikota.Dictionaries {
 
 		Dictionary<String, String> pairs;
 
+		public override bool IsCaseSensetive() {
+			return true;
+		}
+
 		public RussianToChangedRussian() {
 			pairs = new Dictionary<string, string>();
 			pairs.Add("б", "шесть");
