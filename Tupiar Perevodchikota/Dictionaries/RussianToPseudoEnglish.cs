@@ -14,7 +14,7 @@ namespace Tupiar_Perevodchikota.Dictionaries {
 			pairs.Add("а", "A");
 			pairs.Add("б", "6");
 			pairs.Add("в", "B");
-			pairs.Add("г", "Г");
+			pairs.Add("г", "┌"); // Needed to find
 			pairs.Add("д", "Δ");
 			pairs.Add("е", "E");
 			pairs.Add("ё", "E");
@@ -27,7 +27,7 @@ namespace Tupiar_Perevodchikota.Dictionaries {
 			pairs.Add("м", "M");
 			pairs.Add("н", "H");
 			pairs.Add("о", "O");
-			pairs.Add("п", "П");
+			pairs.Add("п", "π");
 			pairs.Add("р", "P");
 			pairs.Add("с", "C");
 			pairs.Add("т", "T");
