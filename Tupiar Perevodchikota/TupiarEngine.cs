@@ -10,10 +10,13 @@ namespace Tupiar_Perevodchikota {
 
 		public String Convert(String source) {
 			String result = "";
-			foreach (char ch in source.ToLower()) {
-				string str = ch.ToString();
-				if (pairs.ContainsKey(str)) result += pairs[str];
-				else result += str;
+			foreach (char ch in source) {
+				String str = ch.ToString().ToLower();
+				String part;
+				if (pairs.ContainsKey(str)) part = pairs[str];
+				else part = str;
+				if (Char.IsUpper(ch)) part = Char.ToUpper(part[0]) + part.Substring(1);
+				result += part;
 			}
 			return result;
 		}
