@@ -28,8 +28,12 @@
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.txtDestination = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
+			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.rbR2E = new System.Windows.Forms.RadioButton();
+			this.rbR2CR = new System.Windows.Forms.RadioButton();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
+			this.groupBox3.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// groupBox1
@@ -72,17 +76,53 @@
 			// 
 			this.label1.AutoSize = true;
 			this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label1.Location = new System.Drawing.Point(410, 117);
+			this.label1.Location = new System.Drawing.Point(410, 146);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(103, 15);
 			this.label1.TabIndex = 2;
 			this.label1.Text = "VladislavSavvateev";
 			// 
+			// groupBox3
+			// 
+			this.groupBox3.Controls.Add(this.rbR2E);
+			this.groupBox3.Controls.Add(this.rbR2CR);
+			this.groupBox3.Location = new System.Drawing.Point(12, 120);
+			this.groupBox3.Name = "groupBox3";
+			this.groupBox3.Size = new System.Drawing.Size(254, 41);
+			this.groupBox3.TabIndex = 3;
+			this.groupBox3.TabStop = false;
+			this.groupBox3.Text = "Тип конвертации";
+			// 
+			// rbR2E
+			// 
+			this.rbR2E.AutoSize = true;
+			this.rbR2E.Location = new System.Drawing.Point(125, 19);
+			this.rbR2E.Name = "rbR2E";
+			this.rbR2E.Size = new System.Drawing.Size(127, 17);
+			this.rbR2E.TabIndex = 1;
+			this.rbR2E.Text = "Русский - PYCCKNN";
+			this.rbR2E.UseVisualStyleBackColor = true;
+			this.rbR2E.CheckedChanged += new System.EventHandler(this.rbR2E_CheckedChanged);
+			// 
+			// rbR2CR
+			// 
+			this.rbR2CR.AutoSize = true;
+			this.rbR2CR.Checked = true;
+			this.rbR2CR.Location = new System.Drawing.Point(6, 19);
+			this.rbR2CR.Name = "rbR2CR";
+			this.rbR2CR.Size = new System.Drawing.Size(113, 17);
+			this.rbR2CR.TabIndex = 0;
+			this.rbR2CR.TabStop = true;
+			this.rbR2CR.Text = "Русский-Пуццкнн";
+			this.rbR2CR.UseVisualStyleBackColor = true;
+			this.rbR2CR.CheckedChanged += new System.EventHandler(this.rbR2CR_CheckedChanged);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(525, 143);
+			this.ClientSize = new System.Drawing.Size(525, 170);
+			this.Controls.Add(this.groupBox3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.groupBox2);
 			this.Controls.Add(this.groupBox1);
@@ -93,6 +133,8 @@
 			this.groupBox1.PerformLayout();
 			this.groupBox2.ResumeLayout(false);
 			this.groupBox2.PerformLayout();
+			this.groupBox3.ResumeLayout(false);
+			this.groupBox3.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -105,6 +147,9 @@
 		private System.Windows.Forms.GroupBox groupBox2;
 		private System.Windows.Forms.TextBox txtDestination;
 		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.GroupBox groupBox3;
+		private System.Windows.Forms.RadioButton rbR2E;
+		private System.Windows.Forms.RadioButton rbR2CR;
 	}
 }
 

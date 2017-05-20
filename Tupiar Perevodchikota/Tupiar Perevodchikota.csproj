@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Dictionaries\DictionaryClass.cs" />
     <Compile Include="Dictionaries\RussianToChangedRussian.cs" />
+    <Compile Include="Dictionaries\RussianToPseudoEnglish.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
